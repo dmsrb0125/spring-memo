@@ -11,7 +11,7 @@ public class MemoResponseDto {
 
     public MemoResponseDto(Memo memo) {
         this.id = memo.getId();
-        this.username = getUsername();
-        this.contents = getContents();
+        this.username = memo.getUsername();
+        this.contents = memo.getContents();
     }
 }
